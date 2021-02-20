@@ -1,4 +1,5 @@
-import Header from './components/header/header'
+import Header from './components/header'
+import Tasks from './components/Tasks'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <Header title='Hello' />
-      <h1>Hello From react</h1>
+      <Tasks/>
 
     </div>
   );
